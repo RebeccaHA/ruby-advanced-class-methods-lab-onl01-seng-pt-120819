@@ -59,7 +59,7 @@ class Song
     data = row.split("-")
     
     artist_name = data[0]
-    song_name = name[1].chomp(".mp3")
+    song_name = name[2].chomp(".mp3")
     
     song = self.new
     song.name = song_name
