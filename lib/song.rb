@@ -58,12 +58,12 @@ class Song
     row = file_name
     data = row.split("-")
     
-    artist = data[0]
+    artist_name = data[0]
     song_name = name[1].chomp(".mp3")
     
     song = self.new
     song.name = song_name
-    song.artist_name = artist
+    song.artist_name = artist_name
     
     song
     
