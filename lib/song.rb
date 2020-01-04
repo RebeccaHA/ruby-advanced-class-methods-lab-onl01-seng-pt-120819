@@ -54,10 +54,10 @@ class Song
     end
   end
   
-  def self.new_from_filename(name)
-    song = self.new
-    song.name = (name.split("-").chomp(".mp3"))
-    song
+  def self.new_from_filename(file_name)
+    row = file_name
+    
+    
   end
   
 
