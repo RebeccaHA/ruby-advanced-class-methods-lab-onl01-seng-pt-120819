@@ -58,7 +58,8 @@ class Song
     row = file_name
     data = row.split("-")
     artist_name = data[0]
-    name = 
+    name = song_name[1].chomp(".mp3")
+    song
     
   end
   
